@@ -38,6 +38,7 @@ int main(){
 
     nodeA.next = &nodeB;
     cout << nodeA.data; // to see the data of first node
+    cout << "\n";
     cout << nodeA.next; // to see the address of next data of node
     cout << "\n";
     cout << nodeA.next->data; // to point to the data using the address
